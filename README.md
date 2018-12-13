@@ -22,6 +22,8 @@ Output dari perintah diatas menunjukkan sebuah perubahan. Dalam hal ini kita dap
  ![no2b](https://user-images.githubusercontent.com/43735593/49912236-1f770280-febc-11e8-83f0-adcb9e4de895.png)
 3.	Apply Terraform Action
 Setelah rencana sudah dibuat, kita perlu menerapkannya agar sesuai dengan keadaan yang kita inginkan. Dalam perintah di dalam CLI ini, terraform akan mem pull images apa pun yang diperlukan kan menampilkan kontainer baru.
+# ![pic4](https://user-images.githubusercontent.com/43735593/49912109-995abc00-febb-11e8-824d-f482cdefe3cf.png)
+# ![pic5](https://user-images.githubusercontent.com/43735593/49912110-99f35280-febb-11e8-8445-ad25ec57739b.png)
 4.	Inspecting Infrastructure
 Memeriksa infrastruktur dapat menggunakan CLI dari Docker agar bisa melihat perubahan dan melihat kontainer yang baru ditampilkan. Bisa menggunakan perintah dibawah ini , selain itu kita juga dapat memerika di masa yang akan datang dengan menggunakan CLI dari Terraform.
 # ![no4b](https://user-images.githubusercontent.com/43735593/49912197-ef2f6400-febb-11e8-82c9-e329f6bcf29c.png)
