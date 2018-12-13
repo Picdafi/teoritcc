@@ -4,7 +4,7 @@ Merupakan proses penyediaan infrastruktur yang mana sistem dibangun dan dikelola
 
 Untuk menerapkan IAC tools/alat yang digunakan adalah Packer (build image), Terraform (build vm dan privisioning instance/vm/server), Ansible, Chef, Puppet & Salt Stack (Configurations Management).
 
-Berikut adalah contoh penerapan tool yang dapat membantu dalam mengintegrasikan IaC, yaitu Terraform. Terraform adalah tool pneyedia insfraktruktur yang dibuat oleh Hashicorp. Terraform memiliki sifat cloud-agnostic (kemampuan untuk berfungsi tanpa “mengetahui” rincian yang mendasari sistem yang bekerja di dalam) yang mana mampu untuk mengotomatisasi tumpukan insfrastruktur dari beberapa penyedia layanan cloud secara bersamaan dan mengintegrasikan layanan pihak ketiga lainnya.  
+Berikut adalah contoh penerapan tool yang dapat membantu dalam mengintegrasikan IaC, yaitu Terraform. Terraform adalah tool penyedia insfraktruktur yang dibuat oleh Hashicorp. Terraform memiliki sifat cloud-agnostic (kemampuan untuk berfungsi tanpa “mengetahui” rincian yang mendasari sistem yang bekerja di dalam) yang mana mampu untuk mengotomatisasi tumpukan infrakstruktur dari beberapa penyedia layanan cloud secara bersamaan dan mengintegrasikan layanan pihak ketiga lainnya.  
 Deploy kontainer NGINX menggunakan Terraform
 https://www.katacoda.com/courses/terraform 
 1.	Membuat konfigurasi Terraform
