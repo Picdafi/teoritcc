@@ -1,6 +1,6 @@
 ## INFRASTRUCTURE AS CODE (IAC) 
 
-Merupakan proses penyediaan infrastruktur yang mana sistem dibangun dan dikelola melalui kode secara otomatis. Dengan menggunakan kode dan mengotomatisasi, proses setting dan konfigurasi baremetal, virtual mesin, cloud computing baik itu instalasi baru, perubahan kofnigurasi dapat dilakukan secara cepat, mudah dan berulang. Selain itu juga memiliki manfaat yang lain yaitu dokumentasi (siapapun akan tahu konfigurasi server, kebutuhan aplikasi server dsb). 
+Merupakan proses penyediaan infrastruktur yang mana sistem dibangun dan dikelola melalui kode secara otomatis. Dengan menggunakan kode dan mengotomatisasi, proses setting dan konfigurasi baremetal, virtual mesin, cloud computing baik itu instalasi baru, perubahan konfigurasi dapat dilakukan secara cepat, mudah dan berulang. Selain itu juga memiliki manfaat yang lain yaitu dokumentasi (siapapun akan tahu konfigurasi server, kebutuhan aplikasi server dsb). 
 
 Untuk menerapkan IAC tools/alat yang digunakan adalah Packer (build image), Terraform (build vm dan privisioning instance/vm/server), Ansible, Chef, Puppet & Salt Stack (Configurations Management).
 
