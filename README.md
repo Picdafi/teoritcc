@@ -30,5 +30,6 @@ Memeriksa infrastruktur dapat menggunakan CLI dari Docker agar bisa melihat peru
 # ![no4b](https://user-images.githubusercontent.com/43735593/49912197-ef2f6400-febb-11e8-82c9-e329f6bcf29c.png)
 5.	Updating Infrastructure
 Ketika infrastruktur sedang berkembang dan berubah, terraform akan mengelola dan memastikan bahwa terraform masih menyediakan area yang kita inginkan. Disini juga dapat mengubah kontainer untuk menampilkan dua instance masing – masing dengan nama yang berbeda. Untuk menyesuaikan infrastruktur agar dapat sesuai dengan konfigurasi yang telah dibuat bisa menggunakan perintah : terraform plan –out config.tfplan . disini perubahan akan di urai, karena pada perintah ini terdapat perubahan nama dan penambahan resource. Dengan mengubah nama kontainer dapat memaksa resource untuk membuat ulang nama nginx-server" => "nginx-server-1" (memaksa membuat resource baru) dengan menambahkan kontainer baru _+ dockercontainer.nginx-server.1. selanjutnya bisa menerapkan sebuah rencana / plan seperti di langkah sebelumnya.
-# ![no5b](https://user-images.githubusercontent.com/43735593/49912213-03736100-febc-11e8-92cb-dba37cd1bc2a.png)
 # ![no5a](https://user-images.githubusercontent.com/43735593/49912214-03736100-febc-11e8-90fd-4706310ded2c.png)
+# ![no5b](https://user-images.githubusercontent.com/43735593/49912213-03736100-febc-11e8-92cb-dba37cd1bc2a.png)
+
